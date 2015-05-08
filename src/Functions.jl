@@ -7,10 +7,10 @@ function sqr(x)
 end
 
 # factorial
-fact(n) = n > 0 ? n * fact(n - 1) : n == 0 ? 1 : error("n cannot be negative")
+fac(n) = n > 0 ? n * fac(n - 1) : n == 0 ? 1 : error("n cannot be negative")
 
 # factorial without recursion
-function fact2(n)
+function fac2(n)
   x = 1; 
   for i in 1:n
     x *= i; 
@@ -21,13 +21,17 @@ end
 f(x) = x^3 + 2x + 1
 
 # calculate powers of ten
-for n in 0:10
-  println(10^n)
+function powersOfTen(nbr)
+  for n in 0:nbr
+    println(10^n)
+  end
 end
 
 # calculate powers of two
-for n in 0:10
-  println(2^n)
+function powersOfTwo(nbr)
+  for n in 0:nbr
+    println(2^n)
+  end
 end
 
 # Fibonacci numbers, x is how many numbers to generate and print
