@@ -1,3 +1,5 @@
+# Tab completion sequence: \neg
+
 function ¬(x::Bool)
   if x == true
      return false
