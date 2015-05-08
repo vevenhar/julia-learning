@@ -14,8 +14,8 @@ function fact2(n)
   x = 1; 
   for i in 1:n
     x *= i; 
-    println(x)
   end
+  return x
 end
 
 f(x) = x^3 + 2x + 1
