@@ -1,2 +1,2 @@
 # Julia Playground
-A place to collect various code examples to facilitate Julia learning 
+A place for collecting various documentation and code examples in order to facilitate Julia learning 
